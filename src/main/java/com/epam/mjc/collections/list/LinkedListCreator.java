@@ -9,12 +9,12 @@ public class LinkedListCreator {
         for(int i = 0; i<sourceList.size(); i++)
         {
             if(sourceList.get(i)%2==1)
-                linkedList.addLast(sourceList.get(i));
+                linkedList.add(sourceList.get(i));
         }
         for(int i = 0; i<sourceList.size(); i++)
         {
             if(sourceList.get(i)%2==0)
-                linkedList.add(sourceList.get(i));
+                linkedList.addLast(sourceList.get(i));
         }
         return linkedList;
     }
